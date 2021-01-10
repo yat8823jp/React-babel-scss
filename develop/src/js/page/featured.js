@@ -8,14 +8,6 @@ export default class Featured extends React.Component {
 		"Some Other Article",
 		"Yet Another Article",
 		"Still More",
-		"Some Article",
-		"Some Other Article",
-		"Yet Another Article",
-		"Still More",
-		"Some Article",
-		"Some Other Article",
-		"Yet Another Article",
-		"Still More"
 	  ].map((title, i) => <Article key={i} title={title} />);
 
 	  const adText = [

@@ -5,7 +5,10 @@ export default class Archives extends React.Component {
 		const query = new URLSearchParams( this.props.search );
 		let message = (this.props.match.params.article ? this.props.match.params.article + ", ": "") + "date=" + query.get("date") + ", filter=" + query.get("filter");
 		return (
-			<h1>Archives ( { message } )</h1>
+			<div>
+				<h1>Archives ( { message } )</h1>
+				<p>aaaaaaaaaaaaa</p>
+			</div>
 		)
 	}
 }
