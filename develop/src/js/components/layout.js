@@ -10,11 +10,10 @@ class Layout extends React.Component {
 	render() {
 		return  (
 			<div>
-				<header></header>
-				<h1>Rish chat app</h1>
+				<Header></Header>
 				{ this.props.children }
-				<Link to="/chat" className="btn btn-warning">Chat</Link>
-				<Link to="/archives/some-other-articles?date=yesterday&filter=none" className="btn btn-warning">archives (some other articles)</Link>
+				<Link to="/chat" class="btn btn-warning">Chat</Link>
+				<Link to="/archives/some-other-articles?date=yesterday&filter=none" class="btn btn-warning">archives (some other articles)</Link>
 				<Link to="/archives?date=today&filter=hot" className="btn btn-danger">archives</Link>
 				<NavLink to="/settings/main" className="btn btn-success" activeClassName="btn-danger">settings</NavLink>
 				<Link to="/settings/extra" className="btn btn-success">settings (extra)</Link>

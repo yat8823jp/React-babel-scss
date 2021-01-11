@@ -9,8 +9,9 @@ export default class Header extends React.Component {
 	render() {
 		return (
 			<header>
-				<Title title={ this.props.title } />
-				<input value={ this.props.title } onChange={ this.handleChange.bind( this ) } />
+				<h1>
+					Rish Chat App
+				</h1>
 			</header>
 		)
 	}
